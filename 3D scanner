@@ -1,0 +1,148 @@
+skaner```html
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Сканер для Одежды</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Революция в онлайн-шопинге</h1>
+        <p>Одевайся легко с помощью 3D-сканирования!</p>
+        <a href="#about" class="button">Узнать больше</a>
+    </header>
+
+    <section id="about">
+        <h2>О Проекте</h2>
+        <p>Наш проект предлагает инновационное решение для онлайн-шопинга, позволяющее пользователям создать точные 3D-модели своего тела и подбирать одежду, которая идеально подходит именно им.</p>
+    </section>
+
+    <section id="features">
+        <h2>Основные Преимущества</h2>
+        <ul>
+            <li>Экономия времени на покупки</li>
+            <li>Индивидуальный подход к каждому пользователю</li>
+            <li>Снижение возвратов и обменов</li>
+        </ul>
+    </section>
+
+    <section id="team">
+        <h2>Наша Команда</h2>
+        <p>Опытные специалисты в области технологий и моды.</p>
+    </section>
+
+    <footer>
+        <h2>Контакты</h2>
+        <form id="contactForm">
+            <input type="text" placeholder="Ваше имя" required>
+            <input type="email" placeholder="Ваш email" required>
+            <textarea placeholder="Ваше сообщение" required></textarea>
+            <button type="submit">Отправить</button>
+        </form>
+    </footer>
+
+    <script src="script.js"></script
+Извините за задержку. Давайте я предоставлю оставшиеся части кода: CSS для стилизации и JavaScript для простой обработки формы.
+
+#### 2. CSS (styles.css)
+
+Создайте файл с именем `styles.css` и вставьте в него следующий код:
+
+```css
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.button {
+    background: #f4b400;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+section#about {
+    background: #f4f4f4;
+}
+
+section#features ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section#features ul li {
+    background: #e2e2e2;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+footer input, footer textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+footer button {
+    background: #f4b400;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+footer button:hover {
+    background: #e2a400;
+}
+```
+```javascript
+document.getElementById('contactForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    alert('Спасибо за ваше сообщение! Мы свяжемся с вами в ближайшее время.');
+    document.getElementById('contactForm').reset();
+});
+```
